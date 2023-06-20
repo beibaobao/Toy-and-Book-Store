@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Don't use too many fonts */
+    background-color: #f4dede;
+}
+
+/* Class selector */
+.navbar {
+    background-color: #ebb1ce;
+    /* Hot pink background */
+    border-radius: 20px;
+    margin: 20px auto;
+    /* Add auto to left and right */
+}
+
+/* ID selector - You will need to add this ID to an HTML element to see the effect */
+#specialElement {
+    color: #c6e7c6;
+    /* Bright green text */
+}
+
+/* Attribute selector - You will need to add the 'data-special' attribute to an HTML element to see the effect */
+[data-special] {
+    font-style: italic;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: #efc4b4;
+    /* Orange red text on hover */
+}
+
+.navbar-brand {
+    color: #ec8080;
+    /* White text */
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end
+        /* Align items to the right */
+}
+
+
+.nav-link {
+    color: #ec8080;
+    /* White text */
+    font-size: 30px;
+    /* Larger text size */
+    font-weight: bold;
+    /* Apply bold style */
+}
+
+.nav-link:hover {
+    color: #9b0a0a;
+    /* Black text on hover */
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dropdown-toggle {
+    background-color: #f8f9fa !important;
+    /* Soft gray */
+    color: #5a5a5a !important;
+    /* Dark gray */
+}
+
+.dropdown-item {
+    color: #5a5a5a !important;
+    /*
+    Dark gray */

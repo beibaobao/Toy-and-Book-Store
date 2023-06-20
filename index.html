@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - The Play Store</title>
+    <!-- Link to Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Link to external styles.css file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Internal styles */
+        .container h2 {
+            color: #92eb92;  /* Green text */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <!-- Home link -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <!-- Products link -->
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <!-- About link -->
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <!-- Contact link -->
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" style="text-align: center;">
+        <!-- Main heading with an ID for styling -->
+        <h1 id="specialElement" style="color: #0e0401;">Welcome to our Toy and Book Store!</h1>
+
+        <!-- Secondary heading with a data-special attribute -->
+        <h3 data-special="true" style="color: #874df3;">Why play is important?</h3>
+
+        <div class="row">
+            <div class="col-12 my-3">
+                <div class="video-container">
+                    <!-- Embedded YouTube video -->
+                    <iframe width="70%" height="315" src="https://www.youtube.com/embed/xkSRPR8u9Ac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Link to Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdi"></script>
+</body>
+</html>
